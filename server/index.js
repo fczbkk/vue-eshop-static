@@ -8,7 +8,7 @@ const products = require('./../data/products.json')
 
 app.use('/images', express.static(path.resolve(__dirname, '../images')))
 
-app.get('/', (req, res) => res.json({}))
+app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, './index.html')))
 
 app.get('/products/highlighted', (req, res) => res.json(products.filter(item => item.highlight)))
 

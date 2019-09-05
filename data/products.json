@@ -153,7 +153,7 @@
       "default": "swim-shorts.jpg"
     },
     "price": 800,
-    "availability": 50,
+    "availability": 0,
     "highlight": false
   },
   {
@@ -165,7 +165,7 @@
       "default": "tube-of-lip-balm.jpg"
     },
     "price": 70,
-    "availability": 500,
+    "availability": 0,
     "highlight": false
   },
   {
