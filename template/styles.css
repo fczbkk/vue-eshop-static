@@ -63,3 +63,11 @@ main {
 .box .title, .box .content {
   padding: 1em;
 }
+
+.soldOut {
+  display: inline-block;
+  font-weight: bold;
+  color: #c00;
+  transform: rotate(-15deg);
+  transform-origin: center center;
+}
