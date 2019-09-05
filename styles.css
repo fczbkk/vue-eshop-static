@@ -1,28 +1,65 @@
 body {
-  background: #ccc;
+  background: #C0C0C0;
   color: #333;
   font-family: helvetica, arial, sans-serif;
   padding: 0;
   margin: 0;
 }
 
+a {
+  color: #FF6700;
+}
+
 header, main, footer {
   padding: 2em;
 }
 
-header {
-  background: #666;
-  color: #fff;
+header, footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+header {
+  background: #004E98;
+  color: #fff;
+}
+
+header div {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+header a {
+  text-decoration: none;
+  color: #EBEBEB;
+}
+
 main {
-  background: #fff;
+  background: #EBEBEB;
 }
 
 .productsList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.box {
+  border: 2px solid #3A6EA5;
+}
+
+.box .title {
+  background: #3A6EA5;
+  color: #EBEBEB;
+}
+
+.box .title h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+.box .title, .box .content {
+  padding: 1em;
 }
