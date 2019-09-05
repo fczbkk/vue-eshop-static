@@ -1,0 +1,22 @@
+{
+  "name": "vue-eshop-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczbkk/vue-eshop-static.git"
+  },
+  "author": "Riki Fridrich <riki@fczbkk.com> (https://github.com/fczbkk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fczbkk/vue-eshop-static/issues"
+  },
+  "homepage": "https://github.com/fczbkk/vue-eshop-static#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
