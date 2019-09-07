@@ -46,8 +46,11 @@
             <img src="./../images/blue-t-shirt.jpg" alt="" height="100">
           </div>
           <p>Product description</p>
+          <div class="price">
+            500,- Kč
+          </div>
           <div class="addToCart">
-            <button>Add to cart</button>
+            <button>🛒 Add to cart</button>
           </div>
         </div>
       </div>
@@ -63,6 +66,9 @@
             <img src="./../images/blue-t-shirt.jpg" alt="" height="100">
           </div>
           <p>Product description</p>
+          <div class="price">
+            500,- Kč
+          </div>
           <div class="addToCart">
             <button>-</button>
             <input type="text" size="3" value="1">
@@ -82,6 +88,9 @@
             <img src="./../images/blue-t-shirt.jpg" alt="" height="100">
           </div>
           <p>Product description</p>
+          <div class="price">
+            500,- Kč
+          </div>
           <div class="addToCart">
             <span class="soldOut">Sold out</span>
           </div>
@@ -99,14 +108,45 @@
 
       <h2>Product title</h2>
 
-      <div class="description">
-        <p>Product description</p>
+      <div class="tabs">
+        <button>Description</button>
+        <button class="active">Variants</button>
+      </div>
+      <div class="tabContent">
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="variant" value="blue" checked>
+              blue
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="variant" value="red">
+              red
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="variant" value="purple">
+              purple
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="price">
+        500,- Kč
+      </div>
+
+      <div class="addToCart">
+        <button>🛒 Add to cart</button>
       </div>
 
     </div>
 
     <div class="image">
-      <img src="./../images/blue-t-shirt.jpg" alt="" height="300">
+      <img src="./../images/blue-t-shirt.jpg" alt="">
     </div>
 
   </div>
