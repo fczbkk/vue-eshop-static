@@ -1,11 +1,14 @@
 const path = require('path')
 const express = require('express')
+const cors = require('cors')
+
 const app = express()
 const port = 3000
 
 const categories = require('./../data/categories.json')
 const products = require('./../data/products.json')
 
+app.use(cors())
 app.use('/images', express.static(path.resolve(__dirname, '../images')))
 
 app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, './index.html')))

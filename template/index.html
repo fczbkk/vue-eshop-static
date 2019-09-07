@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <title>Vue e-shop</title>
   <link rel="stylesheet" href="styles.css">
+
+  <script>
+    // example of AJAX request for data
+    fetch('http://localhost:3000/categories')
+      .then((response) => response.json())
+      .then(console.log);
+  </script>
+
 </head>
 <body>
 
