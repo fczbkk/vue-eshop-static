@@ -186,7 +186,7 @@
     "description": "Just a blank t-shirt. Various colours available.",
     "category": "clothing",
     "variants": {
-      "blue": "blue-t-shirt.jpg",
+      "default": "blue-t-shirt.jpg",
       "green": "green-t-shirt.jpg",
       "purple": "purple-t-shirt.jpg"
     },
